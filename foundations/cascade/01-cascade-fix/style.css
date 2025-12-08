@@ -8,16 +8,18 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* Move after the .para */
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* Changed it to ID selector */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -35,7 +37,8 @@ body {
   font-size: 14px;
 }
 
-div.text {
+/* Removed .text from the chain */
+div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
